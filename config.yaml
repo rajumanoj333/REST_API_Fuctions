@@ -1,0 +1,18 @@
+api:
+  base_url: "https://api.restful-api.dev"
+  get_object_endpoint: "/objects/ff808181923ed5e2019251c44f38283d"
+  put_object_endpoint: "/objects/7"
+  delete_object_endpoint: "/objects/6"
+  post_object_endpoint: "/objects"
+  expected_get_response:
+    id: "ff808181923ed5e2019251c44f38283d"
+    name: "Test Object"
+    description: "This is a test object"
+  put_object_data:
+    name: "Updated Test Object"
+    description: "This is an updated test object"
+  expected_put_response:
+    id: "7"
+    name: "Updated Test Object"
+    description: "This is an updated test object"
+  delete_object_id: "6"
